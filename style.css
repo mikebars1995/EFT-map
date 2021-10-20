@@ -1,0 +1,36 @@
+html {
+    background-color: grey;
+    overflow: hidden;
+}
+
+.map {
+    position: relative;
+    /* width: 10000px; */
+    background-color: gray;
+    transition-property: left, top,;
+    transition-timing-function: linear;
+    transition-duration: 250ms;
+    /* z-index: -1; */
+    
+}
+
+.map__title {
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    box-shadow: rgb(46, 44, 29);
+    text-shadow: lightcoral;
+    top: -20px;
+    height: 100%;
+}
+.map__elment{
+    position: absolute;
+    z-index: 1000;
+    top: 400px;
+}
+
+.draggable{
+    position: relative;
+}
+
+
